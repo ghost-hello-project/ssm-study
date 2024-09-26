@@ -213,6 +213,9 @@
                     </arguments>
                 </configuration>
             </plugin>
+            <!--
+                mvn clean package 可生成一个带所有依赖的可执行 jar 包
+             -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
